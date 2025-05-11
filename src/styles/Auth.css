@@ -1,0 +1,101 @@
+/* Auth pages styling (Login & Signup) */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.auth-header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.auth-title {
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+.auth-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.university-logo, .faculty-logo {
+  height: 60px;
+  object-fit: contain;
+}
+
+.auth-form-container {
+  background-color: white;
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.btn-block {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem 0;
+  font-weight: bold;
+  background-color: #0d6efd;
+  border: none;
+}
+
+.auth-links {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 1rem 0;
+  color: #666;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .auth-title {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+  }
+  
+  .auth-subtitle {
+    font-size: 1rem;
+  }
+  
+  .university-logo, .faculty-logo {
+    height: 40px;
+  }
+  
+  .auth-form-container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+}
